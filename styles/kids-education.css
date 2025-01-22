@@ -540,7 +540,7 @@ color:#FFFFFF;
     width: 1510px;
     height: 1002px;
     margin-bottom: 36px;
-    background:linear-gradient(360deg,#FEA301,#FFFFFF),url(assets/bg.png)
+    background:url(assets/bg.png),linear-gradient(360deg,#FEA301,#FFFFFF);
     
 }
 .icon-web{
@@ -642,7 +642,10 @@ color:#FFFFFF;
 .menu{
     display: none;
 }
-
+.lenevo{
+  font-weight: 700;
+  font-size: 2rem;
+}
 
 
 
@@ -902,6 +905,7 @@ display:none;
   margin-top: -100px;
   margin-left: -100px;
 }
+
 
 
     
