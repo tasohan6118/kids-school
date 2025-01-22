@@ -35,7 +35,6 @@
     margin-left: 140px;
     margin-right: 140px;
     margin-top: 20px;
-    margin-right: 20px;
     gap:11px;
     align-items: center;
 
@@ -191,7 +190,7 @@ banner-img{
     margin-left: 140px;
     margin-right: 140px;
     gap: 28px;
-    background: linear-gradient(url(assets/bg.png))
+    background-image: url("assets/bg.png");
 }
 .card-1{
    width: 368px;
@@ -651,7 +650,11 @@ color:#FFFFFF;
 /* Responsive section */
 @media screen and (max-width:576px){
    
-
+.menu{
+  display:block;
+  height: 60px;
+  width: 60px;
+}
 .brand{
 display:none;
 }
@@ -661,6 +664,7 @@ display:none;
 }
 .banner-img{
     margin-top: 200px;
+    margin-right: 0px;
 }
 
 
@@ -675,7 +679,7 @@ display:none;
     padding: 0px 20px;
     margin-top: 250px;
     margin-left: 25px;
-    margin-right: 8px;
+    margin-right: 0px;
 }
 .banner-heading{
     width: 380px;
@@ -802,9 +806,13 @@ display:none;
     display: none;
 }
 .child-2{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+
     width: 358px;
+    margin-top: -100px;
     margin-left: -140px;
-    margin-right: 226px;
+    margin-right: 226px; 
     gap: 12px;
     
    
@@ -815,22 +823,22 @@ display:none;
 .sohan{
     width: 357px;
     height: 769px;
-    margin-left: 18px;
-    margin-top: -200px;
+    margin-left: 0;
+    margin-top: 0;
 }
 .nokia{
     width: 150px;
     height: 45px;
     padding: 12px 12px;
     border-radius: 18px;
-    margin-left: 28px;
-    margin-right: 128px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: -40px;
 }
 .footer{
     width: 425px;
     height: 642px;
-    margin-left: 18px;
+    margin-left: 0px;
 }
 .parent-2{
     display: block;
@@ -840,7 +848,7 @@ display:none;
     height: 100px;
     margin-bottom: 32px;
     margin-left: -100px;
-    margin-right: 12px;
+    margin-right: 0;
     padding-right: 25px;
 }
 .About{
@@ -879,8 +887,23 @@ display:none;
     margin-left: 18px;
     width: 450px;
 }
-
+.parent{
+  width: 90vh;
+  height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.child-11{
+ 
+  margin-top: -100px;
+  margin-left:-100px ;
+}
+.child-12{
+  margin-top: -100px;
+  margin-left: -100px;
+}
 
 
     
-}    
+}  
+
